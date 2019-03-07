@@ -1,0 +1,22 @@
+body{
+    background-color: lightcoral;
+}
+#container{
+   margin-left: 30%;
+   margin-right: 30%;
+   margin-top: 40px;
+   padding-bottom: 20px;
+   padding-top: 20px;
+background-color: white;
+  text-align: center;
+}
+
+#newBurgers {
+    padding: 20px;
+ 
+}
+#burgers-submit{
+    padding: 10px;
+
+    margin-top: 10px;
+}

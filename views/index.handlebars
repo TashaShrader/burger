@@ -1,0 +1,19 @@
+Burgers have not been devoured!
+<ul>
+    {{#each cats}}
+    {{#unless devoured}}
+    {{> burgers/burgers devoured=true}}
+    {{/unless}}
+    {{/each}}
+</ul>
+Burgers have been devoured!
+<ul>
+    {{#each burgers}}
+    {{#if devoured}}
+    {{> burger devoured=false}}
+    {{/if}}
+    {{/each}}
+</ul>
+
+
+

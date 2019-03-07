@@ -1,0 +1,26 @@
+{
+  "name": "Burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TashaShrader/burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TashaShrader/burger/issues"
+  },
+  "homepage": "https://github.com/TashaShrader/burger#readme",
+  "dependencies": {
+    "connection.js": "0.0.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0"
+  }
+}
